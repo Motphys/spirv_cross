@@ -51,6 +51,9 @@ pub unsafe fn read_from_ptr<T>(ptr: *const T) -> T {
 }
 
 pub unsafe fn read_into_vec_from_ptr<T: Clone>(ptr: *const T, size: usize) -> Vec<T> {
+    if size == 0 {
+        return Vec::new();
+    }
     #[cfg(not(target_arch = "wasm32"))]
     let values = slice::from_raw_parts(ptr, size).to_vec();
     #[cfg(target_arch = "wasm32")]
