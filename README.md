@@ -1,3 +1,10 @@
+# motphys_spirv_cross
+This is a fork of [spirv_cross](https://github.com/grovesNL/spirv_cross) maintained by [Motphys](https://www.motphys.com/).
+
+Features different from original:
+
+- OpenHarmony support
+
 <h1 align="center">
   spirv_cross
 </h1>
