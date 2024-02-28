@@ -1,7 +1,7 @@
 [package]
-name = "spirv_cross"
-version = "0.23.1"
-authors = ["Joshua Groves <josh@joshgroves.com>"]
+name = "motphys_spirv_cross"
+version = "0.23.2"
+authors = ["Joshua Groves <josh@joshgroves.com>, hanqing.cui <hanqing.cui@motphys.com>, Zhao Xiang <xiang.zhao@motphys.com>"]
 description = "Safe wrapper around SPIRV-Cross"
 license = "MIT/Apache-2.0"
 homepage = "https://github.com/grovesNL/spirv_cross"
